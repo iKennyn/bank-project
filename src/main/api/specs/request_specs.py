@@ -30,6 +30,11 @@ class RequestSpecs:
             return headers
         raise Exception("Failed login")
 
+    # Метод, что бы не передавать каждый раз креды админа
+    @staticmethod
+    def admin_auth_header():
+        return RequestSpecs.auth_headers('admin', '123456')
+
     @staticmethod
     def unauth_headers():
         return RequestSpecs.base_headers()
