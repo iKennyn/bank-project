@@ -1,6 +1,5 @@
-from main.api.models.create_user_request import CreateUserRequest
+from main.api.models.create_user_request import UserRole
 from main.api.models.login_user_request import LoginUserRequest
-from main.api.models.user_role import UserRole
 
 
 class TestUserLogin:

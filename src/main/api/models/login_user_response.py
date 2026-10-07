@@ -1,10 +1,9 @@
 from main.api.models.base_model import BaseModel
-from main.api.models.user_role import UserRole
 
 
 class User(BaseModel):
     username: str
-    role: UserRole
+    role: str
 
 
 class LoginUserResponse(BaseModel):

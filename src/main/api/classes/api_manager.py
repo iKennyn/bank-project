@@ -1,7 +1,6 @@
 from typing import List, Any
 
-from main.api.steps.admin_steps import AdminSteps
-from main.api.steps.user_steps import UserSteps
+from main.api.steps.admin_steps import AdminSteps, UserSteps
 
 # для инициализации и отдает все шаги (степы)
 class ApiManager:
